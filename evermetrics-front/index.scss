@@ -1,0 +1,698 @@
+$secondary-color: #5ac3e8;
+
+@import "node_modules/materialize-css/sass/materialize.scss";
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+
+html {
+ background-color: #f3f4f6 !important;
+ font-family: 'Rubik', sans-serif !important;
+}
+
+a{
+  $secondary-color: #5ac3e8;
+}
+
+.btn-login{
+  background-color:#5ac3e8;
+}
+
+.btn:hover, .btn-large:hover{
+  background-color: #4da2c0;
+}
+
+
+.everlytics{
+  color: #000;
+  text-align:center;
+}
+
+.intro-everlytics{
+  color: #000;
+  text-align: center;
+}
+
+.btn-idioma{
+  background-color: transparent;
+}
+
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea{
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.card-images img{
+  width: 100%;
+}
+
+$avatar-size: 48px;
+
+.avatar{
+  width: $avatar-size;
+  height: $avatar-size;
+  border-radius: 50%;
+  float: left;
+  margin-right: 12px;
+}
+
+.card small.time{
+  line-height: $avatar-size;
+  color: #ed1651 !important;
+}
+
+.card p{
+  padding: 20px 0px;
+  color: #ed1651 !important;
+}
+
+.card .likes{
+  line-height: 30px;
+  margin-left: 12px;
+}
+
+.card i{
+  font-size: 30px;
+}
+
+.card .fa-heart-o{
+  color:#ed1651;
+}
+
+body{
+  background-color: #f3f4f6;
+}
+
+.logo{
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.menu-lateral{
+  border-radius: 3px;
+  /*height: 100%;*/
+}
+
+.btn-contact{
+  background-color: transparent;
+}
+
+.btn-contact:hover, .btn-contact:focus{
+  background-color: #7d7d7d;
+}
+
+.site-footer{
+  color:white;
+  background-color: #5a5b5b;
+  padding: 23px 0px 23px;
+
+}
+
+.cont-logo{
+  height: 72px;
+  padding: 15px 50px !important;
+}
+
+.cont-user{
+  padding: 9px 0px !important;
+}
+
+#header-container{
+  background-color: #5a5b5b !important;
+}
+
+.cont-mes{
+  height: 72px;
+  padding: 12px 20px !important;
+  border-left: 1px solid white;
+}
+
+.cont-ano{
+  height: 72px;
+  padding: 12px 20px !important;
+  border-left: 1px solid white;
+}
+
+.container{
+  width: 100%;
+}
+
+.row{
+  margin: 0px !important;
+}
+
+.cont-datos{
+  border-left: 1px solid #5a5b5b;
+  padding: 0px !important;
+}
+
+.cont-datos h4{
+  color:#000000;
+  padding: 0 0.75rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.58rem;
+}
+
+.cont-header{
+  padding: 0px !important;
+  color:white;
+}
+
+.cont-user a{
+  color: #5a5b5b;
+}
+
+.dropdown-content li>a, .dropdown-content li>span{
+  color:#5a5b5b;
+}
+
+.cont-menu{
+  padding: 0px !important;
+}
+
+.menu-lateral li{
+  border-bottom: none;
+  display: list-item !important;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active{
+  font-weight: 600;
+}
+
+.cont-variables{
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+  padding: 10px 11.5px !important;
+}
+
+.cont-datos .row{
+  border:1px solid whitesmoke;
+}
+
+.cont-redes h5{
+  font-size: 1.2rem !important;
+  color: #000000;
+}
+
+.cont-variables p{
+  color: #53a8c3;
+  font-size: 23px;
+  margin: 0px;
+}
+
+.menu-lateral .indicator{
+  display: none;
+}
+
+.btn-mes{
+  color:white;
+}
+
+.btn-ano{
+  color:white;
+}
+
+.drop-mes{
+  background-color: #e2e3e5;
+}
+
+.drop-mes li{
+  border-bottom: 1px solid white;
+}
+
+.drop-mes li:last-child{
+  border-bottom: none;
+}
+
+
+.drop-mes li:last-child{
+  border-bottom: none;
+}
+
+
+.drop-mes li:hover, .drop-mes li.active, .drop-mes li.selected{
+  background-color: rgb(205, 205, 206);
+}
+
+.btn-mes:after {
+  color: #ffffff;
+  font: normal normal normal 14px/1 FontAwesome;
+  content: "\f107";
+  font-size: 24px;
+  position: relative;
+  text-align: center;
+  left: 300px;
+  top: -35px;
+  margin-top: 0px;
+  width: 50px;
+}
+
+
+.btn-ano:after {
+  color: #ffffff;
+  font: normal normal normal 14px/1 FontAwesome;
+  content: "\f107";
+  font-size: 24px;
+  position: relative;
+  text-align: center;
+  left: 250px;
+  top: -35px;
+  margin-top: 0px;
+  width: 50px;
+}
+
+.otro-dato{
+  color: #27c3b7 !important;
+}
+
+.dropdown-content{
+  margin-top: 60px;
+}
+
+.btn-flat:focus, .btn-flat:hover{
+  background-color: rgb(205, 205, 206);
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+    color: #5a5b5b;
+}
+
+.tabs .tab a {
+  color: rgba(79,81,83,0.7);
+}
+
+.tabs{
+  display: block;
+}
+
+.tabs .tab{
+  width: 100%;
+}
+
+.container-login{
+  width: 60%;
+  background-color: white;
+  margin: 90px auto;
+  padding: 30px;
+}
+
+.signup-form input{
+  border: 1px solid #ccc;
+  padding-left: 13px;
+  color: #000;
+}
+
+.cont-form-login{
+  padding: 0px 140px;
+}
+
+.tab-trigger div{
+  display: block;
+}
+
+
+.tab-hidde div{
+  display: none;
+}
+
+.rotate{
+  -moz-transition: all 0s linear !important;
+  -webkit-transition: all 0s linear !important;
+  transition: all 0s linear !important;
+}
+
+.rotate.down{
+  -ms-transform:rotate(0deg)!important;
+  -moz-transform:rotate(0deg) !important;
+  -webkit-transform:rotate(0deg) !important;
+  transform:rotate(0deg)!important;
+}
+
+#tab-1 {
+  display: block;
+}
+
+.btn-floating{
+  border-radius: 9%;
+}
+
+.btn-floating:hover {
+  background-color: #e2e3e5;
+}
+.btn-floating i{
+  color: #757575;
+}
+
+.dropdown-content{
+  margin-top: 40px;
+}
+.btn-floating:focus{
+  background-color: #e2e3e5 ;
+}
+
+#header-container .icon-st{
+  color: white;
+}
+
+.logo-cliente{
+  margin-top:10px;
+  text-align: center;
+}
+
+
+.cont-datos-anos i{
+  padding-right: 6px;
+  font-size: 37px;
+}
+
+.cont-info-ano{
+  padding: 5px;
+  border: 1px solid #dfdfdf;
+  border-radius: 9px;
+}
+
+.cont-ano-border{
+  padding: 5px !important;
+}
+
+.comparativo-ano{
+  border-left: 1px solid #5a5b5b;
+  padding: 0px !important;
+}
+
+.comparativo-ano .cont-titulo{
+  padding: 0 40px;
+}
+
+.cont-total-fans-ano{
+  padding: 5px 40px;
+}
+
+.btn-datos-ano{
+  width: 52px;
+  height: 40px;
+  float: left;
+  margin: 0;
+  background: white;
+  border: none;
+  padding: 6px;
+  color: rgba(0,0,0,0.87);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cont-datos-anos .count-title{
+  margin: 0;
+  color: rgb(83, 168, 195);
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.cont-info-ano h5{
+  font-size: 26px !important;
+  color: #000000;
+  display: flex;
+  align-items: center;
+}
+
+.cont-total-fans-ano .cont-titulo{
+  display: flex;
+  align-items: center;
+}
+
+.con-der-titulo{
+  padding-left: 12px;
+}
+
+.con-der-titulo .count-title{
+  margin-top: -12px
+}
+
+.tabs-menu-datos {
+  clear: both;
+  width: 100%;
+  display: inline-block;
+  height: auto;
+}
+
+.tabs-menu-datos li {
+  /*height: 30px;
+  float: left;*/
+  line-height: 30px;
+  margin-right: 0;
+  background-color: #fff;
+  border-top:none;
+  border-right: none;
+  border-left:none;
+}
+
+.tabs-menu-datos li.current {
+  position: relative;
+  background-color: #fff;
+  border-bottom: none;
+  z-index: 5;
+}
+
+.tabs-menu-datos li a {
+  padding: 10px;
+  text-transform: uppercase;
+  color: #2e7da3;
+  text-decoration: none;
+}
+
+.tabs-menu-datos .current a {
+  color: #000;
+}
+
+.tab-content-datos, .tab-content-redes{
+  display: none;
+}
+
+.estadisticas:first-child .tab-content-datos{
+    display: block;
+}
+
+.tabs-menu-redes li.current {
+  background-color: #CBEF43;/*#9385fc;*/
+}
+
+
+.tabs-menu-redes li.current a{
+  color: #5a5b5b !important;
+}
+
+#top-menu .tabs-menu-redes {
+  display: flex;
+  display: -webkit-flex;
+  margin: 0px;
+}
+
+#top-menu .tabs-menu-redes li{
+  flex: 1;
+  -webkit-flex:1;
+  margin: 0;
+  text-align: center;
+  box-shadow: 0px 0px 2px #5a5b5b;
+}
+
+#top-menu .tabs-menu-redes li a{
+  font-size: 17px;
+  padding: 11px 30px;
+  width: 100%;
+  display: block;
+  text-transform: uppercase;
+  color: #000;
+}
+
+#top-menu .tabs-menu-redes li i{
+  padding-right: 7px;
+}
+
+.title-error{
+  color: rgb(83, 168, 195);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+}
+
+.title-error i{
+  padding-right: 20px;
+}
+
+.title-mes{
+  padding: 16px !important;
+  text-align: center;
+  border-bottom: 1px solid whitesmoke;
+  margin: 0;
+}
+
+.title-mes:before{
+  content: "\f073";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 24px;
+  padding-right: 7px;
+}
+
+[draggable] {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  /* Required to make elements draggable in old WebKit */
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+}
+
+.cont-dragg{
+  cursor: move;
+}
+
+.cont-dragg.over {
+  border: 2px dashed #000;
+}
+
+.btn-contact-footer{
+  margin-top:2px;
+  margin-bottom:15px;
+  font-size: 12px;
+}
+
+.btn-politicas{
+  color: #fff;
+  padding-top: 28px;
+  font-size: 14px;
+}
+
+.col-izq-ft{
+  padding-top: 20px;
+}
+
+.col-der-ft{
+  padding: 20px 0px 0px;
+}
+
+.row-header{
+  display: flex;
+  align-items: center;
+}
+
+#drop-users h5{
+  font-size: 17px;
+}
+
+.cont-user .dropdown-content{
+  width: 80% !important;
+}
+
+.btn-user-log{
+  background-color: white !important;
+}
+
+.cont-estadisticas{
+  background-color: white !important;
+}
+
+.menumonths {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+
+.cont-labels{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cont-labels p{
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin: 0;
+}
+
+.cont-tortas{
+  text-align: center;
+  min-height: 350px;
+  padding: 8px 20px;
+}
+
+.cont-tortas-h{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.datos-tortas{
+  text-align: left;
+}
+
+.datos-tortas p{
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.color-mujer{
+  color: #f39237 !important;
+}
+
+.color-hombre{
+  color: #53a8c3 !important;
+}
+
+.color-edadp{
+  color: #53a8c3;
+}
+
+.color-edads{
+  color: #3bb273;
+}
+
+.color-idiomap{
+  color: #f39237;
+}
+
+.color-idiomas{
+  color: #3bb273;
+}
+
+.color-paisp{
+  color: #e1bc29;
+}
+
+.color-paiss{
+  color: #53a8c3;
+}
+
+.color-paiso{
+  color: #3bb273;
+}
+
+.color-ciudadp{
+  color: #3bb273;
+}
+
+.color-ciudads{
+  color: #e1bc29;
+}
+
+.color-ciudado{
+  color: #53a8c3;
+}
+
+.cont-datos-fannew{
+  display: flex;
+  justify-content: space-between;
+}
+
+.fannewpromedio{
+  text-align: right;
+}
+
+.authmenu .dropdown-content{
+  margin-top: 54px;
+}
